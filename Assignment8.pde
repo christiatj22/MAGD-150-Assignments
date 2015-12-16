@@ -17,8 +17,7 @@ void setup() {
   size(800, 600);
 
     //IMAGE 1
-      lion = loadImage("![lion](https://cloud.githubusercontent.com/assets/14797740/11840066/78b8d72c-a3b8-11e5-8b03-a3e450ebe298.jpg)
-");
+      lion = loadImage("https://cloud.githubusercontent.com/assets/14797740/11840066/78b8d72c-a3b8-11e5-8b03-a3e450ebe298.jpg");
        lion.resize(800,600);
   
     //IMAGE 2
