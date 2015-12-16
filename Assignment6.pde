@@ -10,10 +10,6 @@ void setup() {
   sizeX = 3;
   sizeY = 5;
   frameRate(20);
-  //TEXT
-  textSize(25);
-  textMode(CENTER);
-  text("ALIEN INVASION", 40, 40);
 }
 
 void draw() {
