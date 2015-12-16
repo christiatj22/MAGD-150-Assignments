@@ -424,13 +424,46 @@ class Movement {
   <p>Description: This sketch is based off the theme of nature. There are 4 images of animals, one in each quadrant of the screen. When the mouse is moved to this quadrant, the animal will be displayed. The Lion King's "Circle of Life" song appropriately plays in the background.</p>
         <br />
         <br />
-  <h1>Your Sketch5 Title</h1>
+  <h1>Tennis</h1>
   <script type="text/processing" data-processing-target="mycanvas5">
   
-  <!-- Your sketch5 goes here -->
+  int x = 0;
+int speed = 4;
+
+void setup(){
+  size(800,600);
+  background(#00FFFD);
+}
+
+void draw(){
+  move();
+  bounce();
+  display();
+}
+
+void move(){
+   x = x + speed;
+}
+
+void bounce(){
+  if ((x>width)||(x<0)) {
+    speed = speed * -1;
+  }
+}
+
+void display(){
+  background(#00FFFD);
+//tennis ball
+fill(#8FFF00);
+ellipse(x,300,90,90);
+
+fill(255);
+rectMode(CENTER);
+rect(400,500,10,200);
+}
 
   </script>
   <canvas id="mycanvas5"></canvas>
-  <p>Description:</p>
+  <p>Description: This sketch is based off the theme of sports. It shows a tennis balls being hit back and forth above a white net in the middle.</p>
   </body>
 </html>  
