@@ -21,7 +21,7 @@ void setup() {
        lion.resize(800,600);
   
     //IMAGE 2
-      toucan = loadImage("toucan.jpg");
+      toucan = loadImage("https://cloud.githubusercontent.com/assets/14797740/11840154/0fec1a82-a3b9-11e5-8d99-14444520f1dc.jpg");
       toucan.resize(800,600);
   
     //IMAGE 3
