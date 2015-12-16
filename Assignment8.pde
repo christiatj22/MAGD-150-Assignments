@@ -25,7 +25,7 @@ void setup() {
       toucan.resize(800,600);
   
     //IMAGE 3
-      alligator = loadImage("alligator.jpg");
+      alligator = loadImage("https://cloud.githubusercontent.com/assets/14797740/11840143/f70d9842-a3b8-11e5-8dcf-251cdf87130c.jpg");
       alligator.resize(800,600);
     
     //IMAGE 4
