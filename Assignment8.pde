@@ -29,7 +29,7 @@ void setup() {
       alligator.resize(800,600);
     
     //IMAGE 4
-      elephant = loadImage("elephant.jpg");
+      elephant = loadImage("https://cloud.githubusercontent.com/assets/14797740/11840152/06f1e6dc-a3b9-11e5-9249-372d8d49d2de.jpg");
       elephant.resize(800,600);
 
     //MOVEMENT
